@@ -7,13 +7,14 @@ As part of module 20 challenge of the Monash University Data Analytics Bootcamp,
 
 The results of the classification report are:
 
-* Healthy Laon:
-o precision: 1
-o recall: 1
+**Healthy Loan:**
+- precision: 1
+- recall: 1
 
-
-
-
+**High-risk Loan**
+- precision: 0.87
+- recall: 0.89
+  
 ## Summary
 
 Summarise the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
