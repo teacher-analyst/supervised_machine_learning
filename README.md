@@ -14,11 +14,13 @@ The results of the classification report are:
 **High-risk Loan**
 - precision: 0.87
 - recall: 0.89
-  
+
+The overall accuracy is 0.99. 
+
 ## Summary
 
-Summarise the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+For a lending service company, it is important to identify borrowers that are classified as high-risk. The logistic regression model perfectly predicts healthy borrowers with a precision and recall result of 1 and accuracy of 0.99. However, the model has a lower result when predicting high-risk borrowers at 0.87 precision and 0.89 recall. In addition, according to the confusion matrix, the model returned 67 false negatives meaning 67 loans were high risk but were predicted to be healthy. 
 
-If you do not recommend any of the models, please justify your reasoning.
+Therefore, the lending service company is recommended to use the logistic regression model to identify healthy loans. 
+
+
