@@ -1,21 +1,18 @@
-# Module 12 Report
+# Credit Risk Analysis Report
 
 ## Overview of the Analysis
-
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+As part of module 20 challenge of the Monash University Data Analytics Bootcamp, I am tasked with building a logistic regression model that can identify the creditworthiness of borrowers. The lending_data.csv file contains historical data from a peer-to-peer lending service company such as borrower income, loan size, interest rate, total debt and loan status. The loan status column has values of 0 and 1 which represent a healthy loan and high-risk loan respectively. The model tries to predict the creditworthiness by displaying a value of 0 or 1. Based on the model's predictions and actual loan status, an assessment is made about the effectiveness of the model. 
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
+The results of the classification report are:
 
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+* Healthy Laon:
+o precision: 1
+o recall: 1
+
+
+
 
 ## Summary
 
